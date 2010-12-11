@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* Bản tin đoàn */
+
+
+#main-container #right-side{
+	width : 350px;
+	float:right;
+	margin-top: 40px;
+	margin-right: 5px;
+}
+#right-side .right-bar{
+	margin-bottom: 10px;
+	float: left;
+	background:#6A99DB;
+}
+#right-side .right-bar .stitle{
+	background: url(../img/huyhieudoan.png) 5px no-repeat;
+	float: left;
+	height: 30px;
+	width:350px;
+	padding-top: 5px;
+	border-bottom: solid #FFF;
+}
+.stitle h3 { 
+	display:block;
+	text-indent: 35px;
+	margin-top: 5px;
+	color : #FFF;
+	font-size : 14px; 
+	font-weight:bold;
+}
+.scontent {
+	background: url(../img/sidebar_content.png) repeat-y;
+	float:left;
+	color: #FFF;
+	padding: 10px 10px 10px 10px;
+}
+#main-container #content{
+	width:620px;
+	margin-top: 40px;
+	margin-left: 5px;
+	float:left;
+	height:auto;
+}
+.slide-news{
+	width: 620px;
+	height: 340px;
+	background: #FFF;
+	float:left;
+	padding: 10px 0 10px 0;
+	margin-bottom: 15px;
+}
+.content-box{
+	width: 620px;
+	background: #FFF;
+	float:left;
+	margin-bottom: 15px;
+}
+.content-header{
+	width: 530px;
+	height:30px;
+	padding-top: 10px;
+	background: url(../img/huyhieudoan.png) 5px no-repeat;
+	border-bottom: solid #666;
+}
+.content-header h3{
+	display:block;
+	text-indent: 30px;
+	color : #234a90;
+	font-size : 14px; 
+	font-weight:bold;
+}
+.content-main{
+	width:605px;
+	float:left;
+	color: #000;
+	padding: 10px 5px 10px 5px;
+}
+.top-news{
+	width: 300px;
+	display:block;
+	float:left;
+}
+.top-news .tn-img{
+	float: left;
+	width: 135px;
+}
+.top-news .tn-title{
+	display:block;
+	float: left;
+	width: 150px;
+	color: #000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.top-news p{
+	padding-left: 5px;	
+}
+.other-news{
+	display: block;
+	width: 275px;
+	float: left;
+	padding: 5px 5px 5px 20px;	
+}
+.other-news ul li{
+	list-style:inside;
+}
+.other-news a{
+	text-decoration: none;
+	color:#000;
+}
+.other-news a:hover{
+	text-decoration:underline;
+}
